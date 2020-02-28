@@ -76,6 +76,7 @@ fun main() {
         return listOfNumbers
     }
 
+
 tailrec fun gCD(a :Int, b:Int):Int{ //п.9
     if (a == b || b == 0) return a else if (a==0) return b
     else if (a > b) return gCD(b, a%b)
